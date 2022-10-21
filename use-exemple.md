@@ -69,7 +69,7 @@ type Filtros = ({
 			id: string,
 			label: number,
 	}[],
-	lero?: undefined, //aqui ta falando que pode não ter essa propriedade em algum objeto
+	lero?: undefined, //aqui ta falando que pode não ter essa propriedade em algum objeto, diz que não é um parametro obrigatório
 })[]
 
 type Person = {
